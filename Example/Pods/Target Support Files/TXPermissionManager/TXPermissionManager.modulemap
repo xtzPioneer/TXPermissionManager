@@ -1,0 +1,6 @@
+framework module TXPermissionManager {
+  umbrella header "TXPermissionManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

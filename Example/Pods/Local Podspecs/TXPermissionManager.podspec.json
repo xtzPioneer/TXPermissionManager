@@ -1,0 +1,65 @@
+{
+  "name": "TXPermissionManager",
+  "version": "0.1.0",
+  "summary": "A short description of TXPermissionManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xtzPioneer/TXPermissionManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xtzPioneer": "xtz_pioneer@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/xtzPioneer/TXPermissionManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "Manager": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "CoreProtocol",
+      "source_files": "TXPermissionManager/Classes/CoreProtocol/*.h",
+      "ios": {
+        "frameworks": [
+          "Foundation",
+          "UIKit"
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "source_files": "TXPermissionManager/Classes/Core/*.{h,m}",
+      "dependencies": {
+        "TXPermissionManager/CoreProtocol": [
+
+        ]
+      }
+    },
+    {
+      "name": "Manager",
+      "source_files": "TXPermissionManager/Classes/Manager/*.{h,m}",
+      "dependencies": {
+        "TXPermissionManager/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "Photo",
+      "source_files": "TXPermissionManager/Classes/Photo/*.{h,m}",
+      "dependencies": {
+        "TXPermissionManager/CoreProtocol": [
+
+        ]
+      }
+    }
+  ]
+}

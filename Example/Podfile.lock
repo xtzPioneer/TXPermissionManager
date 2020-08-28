@@ -1,0 +1,27 @@
+PODS:
+  - TXPermissionManager (0.1.0):
+    - TXPermissionManager/Core (= 0.1.0)
+    - TXPermissionManager/CoreProtocol (= 0.1.0)
+    - TXPermissionManager/Manager (= 0.1.0)
+    - TXPermissionManager/Photo (= 0.1.0)
+  - TXPermissionManager/Core (0.1.0):
+    - TXPermissionManager/CoreProtocol
+  - TXPermissionManager/CoreProtocol (0.1.0)
+  - TXPermissionManager/Manager (0.1.0):
+    - TXPermissionManager/Core
+  - TXPermissionManager/Photo (0.1.0):
+    - TXPermissionManager/CoreProtocol
+
+DEPENDENCIES:
+  - TXPermissionManager (from `../`)
+
+EXTERNAL SOURCES:
+  TXPermissionManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TXPermissionManager: 6e5a7d4d749b87c0030f82ca6be97a15c28e3413
+
+PODFILE CHECKSUM: a5e4fff8c8e83d34f6dc8d640c32e23d24ca9fb3
+
+COCOAPODS: 1.9.3
