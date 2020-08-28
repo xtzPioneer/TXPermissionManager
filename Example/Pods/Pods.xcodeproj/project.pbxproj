@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004BC893938418AF016FAB29F2FFC95D /* TXPermissionPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB9BF529B0B0DDB3253D01D686C7A0 /* TXPermissionPhoto.m */; };
-		02529D69E2C6AB83CEDD1CAF66D0454B /* TKPermissionAlertProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 594AEBE0DF51F081D82ADC5D6307BE2B /* TKPermissionAlertProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17C51453E1777183580C15BD32353806 /* TXPermissionPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE0864127A6F64CD2C1E2F557C702A3 /* TXPermissionPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		123417DA06A43629E76A012C218BF827 /* TXPermissionPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 5819CDB4A5D63A26540FD92325CF0A5B /* TXPermissionPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		167AE6F0F2903AD5442CC72FEB41F826 /* TXPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC575774BF54EC60556ECB3EE1BECE3E /* TXPermissionManager.m */; };
 		1806DA42DCDFE16ADCE3C38EC6EDADC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		3BCAC022991ECC40053A5A5D8C335EA5 /* TXPermissionAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E3050E6AA4EA1B3DAE5E45687EDB782F /* TXPermissionAlert.m */; };
+		27A255A454F3DFC941272CF4D3195FFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		3F71B9EAA2A7EA8D3526C604CEE84DFA /* Pods-TXPermissionManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0025A3554A3BAFBA958DFFCE205EC710 /* Pods-TXPermissionManager_Example-dummy.m */; };
+		44A889596A74413D645D2C367BEA5773 /* TXPermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF1AC5EB2A84CABFDAACB8C8D3BCC8B /* TXPermissionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		495C4003AAD28457BF56648886ED716B /* Pods-TXPermissionManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E071611F00DE237DA93F20310B8235 /* Pods-TXPermissionManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52D123013F80009B4A61326504936E2F /* TXPermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 37060B53E85AA8B24F47F9835D1BCB0F /* TXPermissionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58E379403A9F91E2862C02DF54D7AC56 /* TXPermissionManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E42836FBA1EF2F34F44C8E7D868B5B8 /* TXPermissionManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		740BCF0578018C243CB08F61857E0B71 /* TXPermissionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005205FB420FF4BE485B259C9D16EA7 /* TXPermissionManager-dummy.m */; };
-		75527888A2C35D0ACB99D37CBA0CEADA /* TXPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7A2F9A712A5EF24A042E3255DA7BA8 /* TXPermissionManager.m */; };
-		81F84C493C44EF25A48F67D9AFF0FCEA /* TXPermissionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6ADB1D8C1545A700F405FA880E291C4 /* TXPermissionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83ABCA34EC5A76B87F8C3E329F97AE45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		92069D9596A13F4DD23919A46AEFC9C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		9331429C6D401DC04AB2CBE2C316FA43 /* TXPermissionManagerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7222F7A4EE8CB73B9853982F666C6 /* TXPermissionManagerCore.m */; };
-		973CAA58F19F54AFEEFABC201811D3BE /* TXPermissionManagerCoreProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C3C4E4EC50AC473EA4402212E07CC0F0 /* TXPermissionManagerCoreProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A529B31732D9C53266248AF3FB2E54B3 /* TXPermissionAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7544DF1D3093F0F610822F62A587E3AF /* TXPermissionAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60291B5A3608D909EAD917394A87A988 /* TXPermissionManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE0ACD48FC1D44725FFCCC45C109BAF /* TXPermissionManager-dummy.m */; };
+		721D3D9C7E163C9DE8EC6ADE304D0826 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7776FB26E8F0DB9947426B52DEC238B3 /* TXPermissionCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E77933D5D3E32D144A7F4B513392AAB5 /* TXPermissionCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		919EBA8F24EF0B54E1993B88E4F63EFB /* TXPermissionAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F927A1A445B026FDA849AD49B265FCCC /* TXPermissionAlert.m */; };
+		98FAEDC4735168B3ADEADC5CD6D47535 /* TXPermissionManagerCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA07574C09BB6FCCA70B895B598C5B /* TXPermissionManagerCore.m */; };
+		A45E85E9DE7CE3C7469E88866618FD0C /* TXPermissionPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E530A95A9F91093F6F1975B71DDC7D8 /* TXPermissionPhoto.m */; };
+		A7286BB11228E4C30FA10E4DFB11F84C /* TXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAAF93171F5BA5EA6FD83EFDEB94BD7 /* TXPermissionCamera.m */; };
+		C042C54269CDF0CE47F80619B8A13D4A /* TXPermissionManagerCoreProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E9949B837A402179F94B3D7F3D5E91DD /* TXPermissionManagerCoreProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C836FC6D9FE8D860206DBA92CE8A016C /* TKPermissionAlertProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D05DC07E9A049282D0B8E7CF00050D8F /* TKPermissionAlertProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C83CE06078498D1514B5579ECCE465FC /* Pods-TXPermissionManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415D5EC86B8356FF9021990470A3D8BB /* Pods-TXPermissionManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5022F874C1E6712FE56AA47E3A7FCD8 /* TXPermissionManagerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 68EDEDC0EF6870631B00FA4C26E3B3C5 /* TXPermissionManagerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC1A67D4EFA78E4AB5044F4F0F1DCCDB /* TXPermissionManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DFA1C30CF17ADAD6A10A9DE9C461A /* TXPermissionManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E159BEA4E3AC1A84A394C976895EF059 /* TXPermissionManagerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 570870050FFA13834D6163629E9137A7 /* TXPermissionManagerCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E54034563A90DFAF23C3F49A1E7F066C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E904CE8338BB80ACBD0736A9413BCC06 /* TXPermissionAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC4DD1C2476F3D6209E5E0EF5B0227A /* TXPermissionAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBF0494B618CF217ACB8F828B62A2698 /* Pods-TXPermissionManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E62D5A08B6E0E4F92A62A52A90CA385 /* Pods-TXPermissionManager_Tests-dummy.m */; };
+		FE64A9E4AD32C2678A5DBEE331733AE9 /* TXPermissionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1BF257E8B87786FC55E189E09E283F /* TXPermissionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,58 +51,60 @@
 
 /* Begin PBXFileReference section */
 		0025A3554A3BAFBA958DFFCE205EC710 /* Pods-TXPermissionManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXPermissionManager_Example-dummy.m"; sourceTree = "<group>"; };
+		04C975C3BE4C3D300428493018A0E0F5 /* TXPermissionManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TXPermissionManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		18B7D909F0D928AEFB63B4FD7E9BA98B /* Pods-TXPermissionManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXPermissionManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		18DA07574C09BB6FCCA70B895B598C5B /* TXPermissionManagerCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionManagerCore.m; path = TXPermissionManager/Classes/Core/TXPermissionManagerCore.m; sourceTree = "<group>"; };
 		1A480C1DC10C2E0E1BB7C87A7E17B1B1 /* Pods-TXPermissionManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXPermissionManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		1C255F5C1D2F5F7F16B5CE074D6EC5FB /* TXPermissionManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TXPermissionManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F49DDD1F53D24048D466122C0A63C55 /* Pods-TXPermissionManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXPermissionManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E1BF257E8B87786FC55E189E09E283F /* TXPermissionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionProtocol.h; path = TXPermissionManager/Classes/CoreProtocol/TXPermissionProtocol.h; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3186FC507FCEC3EC38FC75FDE75F32D5 /* Pods-TXPermissionManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXPermissionManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		37060B53E85AA8B24F47F9835D1BCB0F /* TXPermissionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionManager.h; path = TXPermissionManager/Classes/Manager/TXPermissionManager.h; sourceTree = "<group>"; };
 		3A66D501BE2B4100B333648D1032BAB8 /* Pods-TXPermissionManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXPermissionManager_Example-Info.plist"; sourceTree = "<group>"; };
 		3E86783675C659F5FDBC8C6B70A654CE /* Pods-TXPermissionManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXPermissionManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		40F78245693B3F9A7B36CFC01488CA4C /* TXPermissionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXPermissionManager.release.xcconfig; sourceTree = "<group>"; };
 		415D5EC86B8356FF9021990470A3D8BB /* Pods-TXPermissionManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXPermissionManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		457AC2A95767BAB9026F465A470CE186 /* Pods-TXPermissionManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXPermissionManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		493B401B31AEFAAE0679AB623C8A5B60 /* Pods_TXPermissionManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXPermissionManager_Example.framework; path = "Pods-TXPermissionManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		594AEBE0DF51F081D82ADC5D6307BE2B /* TKPermissionAlertProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKPermissionAlertProtocol.h; path = TXPermissionManager/Classes/CoreProtocol/TKPermissionAlertProtocol.h; sourceTree = "<group>"; };
+		570870050FFA13834D6163629E9137A7 /* TXPermissionManagerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionManagerCore.h; path = TXPermissionManager/Classes/Core/TXPermissionManagerCore.h; sourceTree = "<group>"; };
+		5819CDB4A5D63A26540FD92325CF0A5B /* TXPermissionPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionPhoto.h; path = TXPermissionManager/Classes/Photo/TXPermissionPhoto.h; sourceTree = "<group>"; };
+		5B619019A75CAEE02E08801F7725D264 /* TXPermissionManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXPermissionManager.modulemap; sourceTree = "<group>"; };
+		5D5816DBF342EE7ED7F2A55397CF19E1 /* TXPermissionManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXPermissionManager-Info.plist"; sourceTree = "<group>"; };
 		5FD48129E0A43484253EB1DC48D6BD3A /* Pods-TXPermissionManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXPermissionManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		62DD442BD38181E93E896AB4CDF86727 /* TXPermissionManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TXPermissionManager-Info.plist"; sourceTree = "<group>"; };
-		68EDEDC0EF6870631B00FA4C26E3B3C5 /* TXPermissionManagerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionManagerCore.h; path = TXPermissionManager/Classes/Core/TXPermissionManagerCore.h; sourceTree = "<group>"; };
-		6C7A2F9A712A5EF24A042E3255DA7BA8 /* TXPermissionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionManager.m; path = TXPermissionManager/Classes/Manager/TXPermissionManager.m; sourceTree = "<group>"; };
-		6D36E67549207179E13375538518B2EA /* TXPermissionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXPermissionManager-prefix.pch"; sourceTree = "<group>"; };
-		6E42836FBA1EF2F34F44C8E7D868B5B8 /* TXPermissionManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXPermissionManager-umbrella.h"; sourceTree = "<group>"; };
+		6CC4DD1C2476F3D6209E5E0EF5B0227A /* TXPermissionAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionAlert.h; path = TXPermissionManager/Classes/Manager/TXPermissionAlert.h; sourceTree = "<group>"; };
+		6E530A95A9F91093F6F1975B71DDC7D8 /* TXPermissionPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionPhoto.m; path = TXPermissionManager/Classes/Photo/TXPermissionPhoto.m; sourceTree = "<group>"; };
 		6E62D5A08B6E0E4F92A62A52A90CA385 /* Pods-TXPermissionManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXPermissionManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		6FE096CCDE36339AB29856821D1B5B31 /* Pods-TXPermissionManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXPermissionManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7544DF1D3093F0F610822F62A587E3AF /* TXPermissionAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionAlert.h; path = TXPermissionManager/Classes/Manager/TXPermissionAlert.h; sourceTree = "<group>"; };
 		75636AA45D0AF1288D81F83EBE9B9364 /* Pods-TXPermissionManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXPermissionManager_Example.modulemap"; sourceTree = "<group>"; };
-		7AE7222F7A4EE8CB73B9853982F666C6 /* TXPermissionManagerCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionManagerCore.m; path = TXPermissionManager/Classes/Core/TXPermissionManagerCore.m; sourceTree = "<group>"; };
-		8005205FB420FF4BE485B259C9D16EA7 /* TXPermissionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXPermissionManager-dummy.m"; sourceTree = "<group>"; };
-		8CEB9BF529B0B0DDB3253D01D686C7A0 /* TXPermissionPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionPhoto.m; path = TXPermissionManager/Classes/Photo/TXPermissionPhoto.m; sourceTree = "<group>"; };
+		7BF1AC5EB2A84CABFDAACB8C8D3BCC8B /* TXPermissionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionManager.h; path = TXPermissionManager/Classes/Manager/TXPermissionManager.h; sourceTree = "<group>"; };
+		7E18FA3C883D3A983D6B49E5B009B1E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		95C923037D3C9785E4FE128C7F230220 /* Pods-TXPermissionManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TXPermissionManager_Tests.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2C38655DE0CFA06C1F09F542BDED459 /* TXPermissionManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TXPermissionManager.modulemap; sourceTree = "<group>"; };
-		ACE0864127A6F64CD2C1E2F557C702A3 /* TXPermissionPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionPhoto.h; path = TXPermissionManager/Classes/Photo/TXPermissionPhoto.h; sourceTree = "<group>"; };
-		B70561421BF4D444D3FBC998F0DC9BD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C3C4E4EC50AC473EA4402212E07CC0F0 /* TXPermissionManagerCoreProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionManagerCoreProtocol.h; path = TXPermissionManager/Classes/CoreProtocol/TXPermissionManagerCoreProtocol.h; sourceTree = "<group>"; };
+		A0B334E4F69DFF97D1201909BB290E9F /* TXPermissionManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXPermissionManager.release.xcconfig; sourceTree = "<group>"; };
+		BE06DEEB929799CBF0FC817A914DFC56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C2E7D867FD64F0C4A6DB9976EAECFEE4 /* TXPermissionManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXPermissionManager-prefix.pch"; sourceTree = "<group>"; };
+		C55C5695D5970CF719CA5041CDFD152F /* TXPermissionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXPermissionManager.debug.xcconfig; sourceTree = "<group>"; };
 		C61E5951CE601DEE80D98651835E238E /* Pods_TXPermissionManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXPermissionManager_Tests.framework; path = "Pods-TXPermissionManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74408A05DA187525FA1CD9803DBF975 /* Pods-TXPermissionManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXPermissionManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D05DC07E9A049282D0B8E7CF00050D8F /* TKPermissionAlertProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TKPermissionAlertProtocol.h; path = TXPermissionManager/Classes/CoreProtocol/TKPermissionAlertProtocol.h; sourceTree = "<group>"; };
+		D09DFA1C30CF17ADAD6A10A9DE9C461A /* TXPermissionManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXPermissionManager-umbrella.h"; sourceTree = "<group>"; };
 		D38F7437857B653153AB24329903A427 /* TXPermissionManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXPermissionManager.framework; path = TXPermissionManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F95961319C9F2682E76FA1AC33ED51 /* Pods-TXPermissionManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXPermissionManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D6ADB1D8C1545A700F405FA880E291C4 /* TXPermissionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionProtocol.h; path = TXPermissionManager/Classes/CoreProtocol/TXPermissionProtocol.h; sourceTree = "<group>"; };
-		DAB9147104735A330651E00EA2E54644 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		DFF37D6234AD3EB55B3B603FE375BB71 /* TXPermissionManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXPermissionManager.debug.xcconfig; sourceTree = "<group>"; };
 		E1E071611F00DE237DA93F20310B8235 /* Pods-TXPermissionManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXPermissionManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		E3050E6AA4EA1B3DAE5E45687EDB782F /* TXPermissionAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionAlert.m; path = TXPermissionManager/Classes/Manager/TXPermissionAlert.m; sourceTree = "<group>"; };
+		E77933D5D3E32D144A7F4B513392AAB5 /* TXPermissionCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionCamera.h; path = TXPermissionManager/Classes/Camera/TXPermissionCamera.h; sourceTree = "<group>"; };
+		E9949B837A402179F94B3D7F3D5E91DD /* TXPermissionManagerCoreProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TXPermissionManagerCoreProtocol.h; path = TXPermissionManager/Classes/CoreProtocol/TXPermissionManagerCoreProtocol.h; sourceTree = "<group>"; };
+		EC575774BF54EC60556ECB3EE1BECE3E /* TXPermissionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionManager.m; path = TXPermissionManager/Classes/Manager/TXPermissionManager.m; sourceTree = "<group>"; };
+		EEE0ACD48FC1D44725FFCCC45C109BAF /* TXPermissionManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXPermissionManager-dummy.m"; sourceTree = "<group>"; };
+		F927A1A445B026FDA849AD49B265FCCC /* TXPermissionAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionAlert.m; path = TXPermissionManager/Classes/Manager/TXPermissionAlert.m; sourceTree = "<group>"; };
+		FBAAF93171F5BA5EA6FD83EFDEB94BD7 /* TXPermissionCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TXPermissionCamera.m; path = TXPermissionManager/Classes/Camera/TXPermissionCamera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		572377A7DB5EA001F168F011E5A0E5A6 /* Frameworks */ = {
+		463B7EA656B536F342FCC666C064BB5D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92069D9596A13F4DD23919A46AEFC9C2 /* Foundation.framework in Frameworks */,
-				83ABCA34EC5A76B87F8C3E329F97AE45 /* UIKit.framework in Frameworks */,
+				721D3D9C7E163C9DE8EC6ADE304D0826 /* Foundation.framework in Frameworks */,
+				27A255A454F3DFC941272CF4D3195FFD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,32 +127,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03983E6317907471D7A1985DFFE28299 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				7544DF1D3093F0F610822F62A587E3AF /* TXPermissionAlert.h */,
-				E3050E6AA4EA1B3DAE5E45687EDB782F /* TXPermissionAlert.m */,
-				37060B53E85AA8B24F47F9835D1BCB0F /* TXPermissionManager.h */,
-				6C7A2F9A712A5EF24A042E3255DA7BA8 /* TXPermissionManager.m */,
-			);
-			name = Manager;
-			sourceTree = "<group>";
-		};
-		0618C05E453F27B114496484E2DBC182 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A2C38655DE0CFA06C1F09F542BDED459 /* TXPermissionManager.modulemap */,
-				8005205FB420FF4BE485B259C9D16EA7 /* TXPermissionManager-dummy.m */,
-				62DD442BD38181E93E896AB4CDF86727 /* TXPermissionManager-Info.plist */,
-				6D36E67549207179E13375538518B2EA /* TXPermissionManager-prefix.pch */,
-				6E42836FBA1EF2F34F44C8E7D868B5B8 /* TXPermissionManager-umbrella.h */,
-				DFF37D6234AD3EB55B3B603FE375BB71 /* TXPermissionManager.debug.xcconfig */,
-				40F78245693B3F9A7B36CFC01488CA4C /* TXPermissionManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TXPermissionManager";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,18 +135,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		42D42261882729E5A76CDA755C8868B0 /* TXPermissionManager */ = {
+		27A8CE42978C4A17CE57969056CD71C7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DFF310E97A88048594A07137A9F3BA28 /* Core */,
-				F506E94B94AB2172FB39902E450F973B /* CoreProtocol */,
-				03983E6317907471D7A1985DFFE28299 /* Manager */,
-				7E1E7FC049172E2212ECE4DD7311EA51 /* Photo */,
-				8AD593B7AAE67657EE02884ECFE4834C /* Pod */,
-				0618C05E453F27B114496484E2DBC182 /* Support Files */,
+				BE06DEEB929799CBF0FC817A914DFC56 /* LICENSE */,
+				7E18FA3C883D3A983D6B49E5B009B1E5 /* README.md */,
+				04C975C3BE4C3D300428493018A0E0F5 /* TXPermissionManager.podspec */,
 			);
-			name = TXPermissionManager;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4301BD27947836E705B4453A49D5D6D8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6CC4DD1C2476F3D6209E5E0EF5B0227A /* TXPermissionAlert.h */,
+				F927A1A445B026FDA849AD49B265FCCC /* TXPermissionAlert.m */,
+				7BF1AC5EB2A84CABFDAACB8C8D3BCC8B /* TXPermissionManager.h */,
+				EC575774BF54EC60556ECB3EE1BECE3E /* TXPermissionManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		4C3E861BA3CAD489A8BC275FB5627D08 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E77933D5D3E32D144A7F4B513392AAB5 /* TXPermissionCamera.h */,
+				FBAAF93171F5BA5EA6FD83EFDEB94BD7 /* TXPermissionCamera.m */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 		4EB60FC433EB2767C0E0ACD028234755 /* Products */ = {
@@ -181,23 +175,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E1E7FC049172E2212ECE4DD7311EA51 /* Photo */ = {
+		59D768317965C7DC004D2CEF821404A4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ACE0864127A6F64CD2C1E2F557C702A3 /* TXPermissionPhoto.h */,
-				8CEB9BF529B0B0DDB3253D01D686C7A0 /* TXPermissionPhoto.m */,
+				C583E44DE01A8C74D83B96F924895667 /* TXPermissionManager */,
 			);
-			name = Photo;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8AD593B7AAE67657EE02884ECFE4834C /* Pod */ = {
+		6738AB758D81EF1EA736BEBE1A9A4184 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B70561421BF4D444D3FBC998F0DC9BD9 /* LICENSE */,
-				DAB9147104735A330651E00EA2E54644 /* README.md */,
-				1C255F5C1D2F5F7F16B5CE074D6EC5FB /* TXPermissionManager.podspec */,
+				570870050FFA13834D6163629E9137A7 /* TXPermissionManagerCore.h */,
+				18DA07574C09BB6FCCA70B895B598C5B /* TXPermissionManagerCore.m */,
 			);
-			name = Pod;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		8C83EDC6EA97C6168D44B6C2475000F1 /* CoreProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				D05DC07E9A049282D0B8E7CF00050D8F /* TKPermissionAlertProtocol.h */,
+				E9949B837A402179F94B3D7F3D5E91DD /* TXPermissionManagerCoreProtocol.h */,
+				2E1BF257E8B87786FC55E189E09E283F /* TXPermissionProtocol.h */,
+			);
+			name = CoreProtocol;
 			sourceTree = "<group>";
 		};
 		98CA94149D611B0062D19F85F32522A1 /* Targets Support Files */ = {
@@ -226,14 +228,6 @@
 			path = "Target Support Files/Pods-TXPermissionManager_Example";
 			sourceTree = "<group>";
 		};
-		A0222F4F5452CE8E023615DD49D6174B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				42D42261882729E5A76CDA755C8868B0 /* TXPermissionManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		B8299D60988490FB8B92430B728E9A83 /* Pods-TXPermissionManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,24 +244,45 @@
 			path = "Target Support Files/Pods-TXPermissionManager_Tests";
 			sourceTree = "<group>";
 		};
+		C583E44DE01A8C74D83B96F924895667 /* TXPermissionManager */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E861BA3CAD489A8BC275FB5627D08 /* Camera */,
+				6738AB758D81EF1EA736BEBE1A9A4184 /* Core */,
+				8C83EDC6EA97C6168D44B6C2475000F1 /* CoreProtocol */,
+				4301BD27947836E705B4453A49D5D6D8 /* Manager */,
+				EEEEC609CFB05A01CB2218DA609E1DEA /* Photo */,
+				27A8CE42978C4A17CE57969056CD71C7 /* Pod */,
+				CE51810ECE4887B4B2812648D52EED0C /* Support Files */,
+			);
+			name = TXPermissionManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE51810ECE4887B4B2812648D52EED0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B619019A75CAEE02E08801F7725D264 /* TXPermissionManager.modulemap */,
+				EEE0ACD48FC1D44725FFCCC45C109BAF /* TXPermissionManager-dummy.m */,
+				5D5816DBF342EE7ED7F2A55397CF19E1 /* TXPermissionManager-Info.plist */,
+				C2E7D867FD64F0C4A6DB9976EAECFEE4 /* TXPermissionManager-prefix.pch */,
+				D09DFA1C30CF17ADAD6A10A9DE9C461A /* TXPermissionManager-umbrella.h */,
+				C55C5695D5970CF719CA5041CDFD152F /* TXPermissionManager.debug.xcconfig */,
+				A0B334E4F69DFF97D1201909BB290E9F /* TXPermissionManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TXPermissionManager";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A0222F4F5452CE8E023615DD49D6174B /* Development Pods */,
+				59D768317965C7DC004D2CEF821404A4 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				4EB60FC433EB2767C0E0ACD028234755 /* Products */,
 				98CA94149D611B0062D19F85F32522A1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DFF310E97A88048594A07137A9F3BA28 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				68EDEDC0EF6870631B00FA4C26E3B3C5 /* TXPermissionManagerCore.h */,
-				7AE7222F7A4EE8CB73B9853982F666C6 /* TXPermissionManagerCore.m */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -279,14 +294,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F506E94B94AB2172FB39902E450F973B /* CoreProtocol */ = {
+		EEEEC609CFB05A01CB2218DA609E1DEA /* Photo */ = {
 			isa = PBXGroup;
 			children = (
-				594AEBE0DF51F081D82ADC5D6307BE2B /* TKPermissionAlertProtocol.h */,
-				C3C4E4EC50AC473EA4402212E07CC0F0 /* TXPermissionManagerCoreProtocol.h */,
-				D6ADB1D8C1545A700F405FA880E291C4 /* TXPermissionProtocol.h */,
+				5819CDB4A5D63A26540FD92325CF0A5B /* TXPermissionPhoto.h */,
+				6E530A95A9F91093F6F1975B71DDC7D8 /* TXPermissionPhoto.m */,
 			);
-			name = CoreProtocol;
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,26 +314,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B237D05D25ED6A26BE88D581B93FF764 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C836FC6D9FE8D860206DBA92CE8A016C /* TKPermissionAlertProtocol.h in Headers */,
+				E904CE8338BB80ACBD0736A9413BCC06 /* TXPermissionAlert.h in Headers */,
+				7776FB26E8F0DB9947426B52DEC238B3 /* TXPermissionCamera.h in Headers */,
+				CC1A67D4EFA78E4AB5044F4F0F1DCCDB /* TXPermissionManager-umbrella.h in Headers */,
+				44A889596A74413D645D2C367BEA5773 /* TXPermissionManager.h in Headers */,
+				E159BEA4E3AC1A84A394C976895EF059 /* TXPermissionManagerCore.h in Headers */,
+				C042C54269CDF0CE47F80619B8A13D4A /* TXPermissionManagerCoreProtocol.h in Headers */,
+				123417DA06A43629E76A012C218BF827 /* TXPermissionPhoto.h in Headers */,
+				FE64A9E4AD32C2678A5DBEE331733AE9 /* TXPermissionProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE8D5FFB8D7654565F992E69EFD1E4C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C83CE06078498D1514B5579ECCE465FC /* Pods-TXPermissionManager_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D6DE95310802D37D550706665C469D7F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02529D69E2C6AB83CEDD1CAF66D0454B /* TKPermissionAlertProtocol.h in Headers */,
-				A529B31732D9C53266248AF3FB2E54B3 /* TXPermissionAlert.h in Headers */,
-				58E379403A9F91E2862C02DF54D7AC56 /* TXPermissionManager-umbrella.h in Headers */,
-				52D123013F80009B4A61326504936E2F /* TXPermissionManager.h in Headers */,
-				E5022F874C1E6712FE56AA47E3A7FCD8 /* TXPermissionManagerCore.h in Headers */,
-				973CAA58F19F54AFEEFABC201811D3BE /* TXPermissionManagerCoreProtocol.h in Headers */,
-				17C51453E1777183580C15BD32353806 /* TXPermissionPhoto.h in Headers */,
-				81F84C493C44EF25A48F67D9AFF0FCEA /* TXPermissionProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +362,12 @@
 		};
 		6BA67787612FC94C5142479C9C188B6F /* TXPermissionManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B181A93C6C9D404AFF0D250C0040B7C /* Build configuration list for PBXNativeTarget "TXPermissionManager" */;
+			buildConfigurationList = 050D97A9DF12BF034C503503F0CB6773 /* Build configuration list for PBXNativeTarget "TXPermissionManager" */;
 			buildPhases = (
-				D6DE95310802D37D550706665C469D7F /* Headers */,
-				9AEEC663B1FAC4E6BEF8EC0E45C2367E /* Sources */,
-				572377A7DB5EA001F168F011E5A0E5A6 /* Frameworks */,
-				D1A2DBFE813744C15C6C09A2BCF9EBAB /* Resources */,
+				B237D05D25ED6A26BE88D581B93FF764 /* Headers */,
+				1223888AE28C8456DCBD692A9CDC6915 /* Sources */,
+				463B7EA656B536F342FCC666C064BB5D /* Frameworks */,
+				CDC601F3710B14E5FFB75BD6325C9657 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -426,7 +441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1A2DBFE813744C15C6C09A2BCF9EBAB /* Resources */ = {
+		CDC601F3710B14E5FFB75BD6325C9657 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -436,23 +451,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1223888AE28C8456DCBD692A9CDC6915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919EBA8F24EF0B54E1993B88E4F63EFB /* TXPermissionAlert.m in Sources */,
+				A7286BB11228E4C30FA10E4DFB11F84C /* TXPermissionCamera.m in Sources */,
+				60291B5A3608D909EAD917394A87A988 /* TXPermissionManager-dummy.m in Sources */,
+				167AE6F0F2903AD5442CC72FEB41F826 /* TXPermissionManager.m in Sources */,
+				98FAEDC4735168B3ADEADC5CD6D47535 /* TXPermissionManagerCore.m in Sources */,
+				A45E85E9DE7CE3C7469E88866618FD0C /* TXPermissionPhoto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		590F9A045D80DBB48CD890E80A6A5640 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FBF0494B618CF217ACB8F828B62A2698 /* Pods-TXPermissionManager_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AEEC663B1FAC4E6BEF8EC0E45C2367E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BCAC022991ECC40053A5A5D8C335EA5 /* TXPermissionAlert.m in Sources */,
-				740BCF0578018C243CB08F61857E0B71 /* TXPermissionManager-dummy.m in Sources */,
-				75527888A2C35D0ACB99D37CBA0CEADA /* TXPermissionManager.m in Sources */,
-				9331429C6D401DC04AB2CBE2C316FA43 /* TXPermissionManagerCore.m in Sources */,
-				004BC893938418AF016FAB29F2FFC95D /* TXPermissionPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,37 +531,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		0156DB3CE1BFE005B625C0455628CFCD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFF37D6234AD3EB55B3B603FE375BB71 /* TXPermissionManager.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TXPermissionManager/TXPermissionManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TXPermissionManager/TXPermissionManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TXPermissionManager/TXPermissionManager.modulemap";
-				PRODUCT_MODULE_NAME = TXPermissionManager;
-				PRODUCT_NAME = TXPermissionManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		30F1081251DDF3996F3D9932DFA4E181 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -737,9 +722,9 @@
 			};
 			name = Debug;
 		};
-		C4E1857992EB303361FA6E4BDA0F0ED4 /* Release */ = {
+		9256E9D37DE7FB8AD89F72F75EA41757 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40F78245693B3F9A7B36CFC01488CA4C /* TXPermissionManager.release.xcconfig */;
+			baseConfigurationReference = A0B334E4F69DFF97D1201909BB290E9F /* TXPermissionManager.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -768,6 +753,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AC6F7A1D8159F7599BCAE182C297B0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55C5695D5970CF719CA5041CDFD152F /* TXPermissionManager.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXPermissionManager/TXPermissionManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXPermissionManager/TXPermissionManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXPermissionManager/TXPermissionManager.modulemap";
+				PRODUCT_MODULE_NAME = TXPermissionManager;
+				PRODUCT_NAME = TXPermissionManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F16EC2F43356363854DDD5874C5A9142 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -806,6 +822,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		050D97A9DF12BF034C503503F0CB6773 /* Build configuration list for PBXNativeTarget "TXPermissionManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC6F7A1D8159F7599BCAE182C297B0D0 /* Debug */,
+				9256E9D37DE7FB8AD89F72F75EA41757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2FB4BAB3B209AEAAD02A82E006FCF15C /* Build configuration list for PBXNativeTarget "Pods-TXPermissionManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -820,15 +845,6 @@
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B181A93C6C9D404AFF0D250C0040B7C /* Build configuration list for PBXNativeTarget "TXPermissionManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0156DB3CE1BFE005B625C0455628CFCD /* Debug */,
-				C4E1857992EB303361FA6E4BDA0F0ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

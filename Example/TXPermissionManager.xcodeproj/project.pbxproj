@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16357E4928F865FB6D54ED98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		16357E4928F865FB6D54ED98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		24DC6FF89E46B380CAA04BBC /* Pods_TXPermissionManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXPermissionManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25DC31D1C3B691EA1D732094 /* Pods-TXPermissionManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXPermissionManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-TXPermissionManager_Example/Pods-TXPermissionManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		34408361FDA56F09A3578EA6 /* Pods-TXPermissionManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXPermissionManager_Example.release.xcconfig"; path = "Target Support Files/Pods-TXPermissionManager_Example/Pods-TXPermissionManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4B9486BD507C06005A7A7BC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4B9486BD507C06005A7A7BC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TXPermissionManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXPermissionManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		93ACABE153F8A651B7102414 /* Pods-TXPermissionManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXPermissionManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TXPermissionManager_Tests/Pods-TXPermissionManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A9D1FB41E6A52620CF08BC46 /* Pods-TXPermissionManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXPermissionManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-TXPermissionManager_Tests/Pods-TXPermissionManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF36D05106ECC835FD47CF1B /* Pods_TXPermissionManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXPermissionManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBD124D5EAFC6FC08CE816FA /* TXPermissionManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TXPermissionManager.podspec; path = ../TXPermissionManager.podspec; sourceTree = "<group>"; };
+		FBD124D5EAFC6FC08CE816FA /* TXPermissionManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TXPermissionManager.podspec; path = ../TXPermissionManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				93ACABE153F8A651B7102414 /* Pods-TXPermissionManager_Tests.debug.xcconfig */,
 				A9D1FB41E6A52620CF08BC46 /* Pods-TXPermissionManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

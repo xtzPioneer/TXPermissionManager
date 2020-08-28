@@ -9,6 +9,7 @@
 #import "TXViewController.h"
 #import "TXPermissionManager.h"
 #import "TXPermissionPhoto.h"
+#import "TXPermissionCamera.h"
 
 @interface TXViewController ()
 
@@ -19,16 +20,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    TXPermissionManager *manager = [TXPermissionManager permissionWithTarget:TXPermissionPhoto.new];
-    [manager requestAuthWithAlert:YES completionHandler:^(BOOL isAuth) {
+    
+    TXPermissionManager *photo = [TXPermissionManager permissionWithTarget:TXPermissionPhoto.new];
+    [photo requestAuthWithAlert:YES completionHandler:^(BOOL isAuth) {
         if (isAuth) {
             NSLog(@"有相册权限");
         }else {
             NSLog(@"无相册权限");
         }
     }];
-
     
+    TXPermissionManager *camera = [TXPermissionManager permissionWithTarget:TXPermissionCamera.new];
+    [camera requestAuthWithAlert:YES completionHandler:^(BOOL isAuth) {
+        if (isAuth) {
+            NSLog(@"有相机权限");
+        }else {
+            NSLog(@"无相机权限");
+        }
+    }];
+
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

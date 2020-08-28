@@ -43,4 +43,10 @@ Pod::Spec.new do |s|
     ss.dependency 'TXPermissionManager/CoreProtocol'
   end
   
+  # 相机权限
+  s.subspec 'Camera' do |ss|
+    ss.source_files = 'TXPermissionManager/Classes/Camera/*.{h,m}'
+    ss.dependency 'TXPermissionManager/CoreProtocol'
+  end
+  
 end

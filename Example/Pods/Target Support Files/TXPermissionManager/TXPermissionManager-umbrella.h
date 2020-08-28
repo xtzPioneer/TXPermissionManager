@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TXPermissionCamera.h"
 #import "TXPermissionManagerCore.h"
 #import "TKPermissionAlertProtocol.h"
 #import "TXPermissionManagerCoreProtocol.h"
